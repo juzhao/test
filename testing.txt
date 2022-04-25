@@ -1,1 +1,23 @@
-file for testing.txt
+$ cat .git/refs/heads/fix_testing_content 
+03d8b6bacb7d30dd6d5591c8017be7434d42fc3b
+[juzhao@localhost testing_git]$ git log
+commit 03d8b6bacb7d30dd6d5591c8017be7434d42fc3b (HEAD -> fix_testing_content, origin/main, origin/HEAD, main)
+Author: Junqi Zhao <juzhao@redhat.com>
+Date:   Mon Apr 25 17:46:55 2022 +0800
+
+    Create testing.txt
+
+commit e9503f620e0a6e3dee0dee0ec79b5f094b6300a4
+Author: juzhao <juzhao@redhat.com>
+Date:   Fri Dec 25 17:44:24 2020 +0800
+
+    add config.yaml prometheus.yaml
+
+commit a87a81b8cc574bffa59b78ab49f20e1303a25d3b
+Author: Junqi Zhao <juzhao@redhat.com>
+Date:   Fri Dec 25 09:45:52 2020 +0800
+
+    Initial commit
+[juzhao@localhost testing_git]$ cat .git/refs/heads/main
+03d8b6bacb7d30dd6d5591c8017be7434d42fc3b
+
