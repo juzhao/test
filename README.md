@@ -1,4 +1,2 @@
 # test
-One proposal for a minimal DoD was:
-    * Feature gate in openshift/api
-    * Api types moved to openshift/api
+*  Port 9094 provides access to all the Alertmanager endpoints. Granting access requires binding a user to the `monitoring-alertmanager-view` role (for read-only operations) or the `monitoring-alertmanager-edit` role in the `openshift-monitoring` project.
